@@ -7,7 +7,8 @@ Crea un file history in APPDATA/LOCAL/TEMP contenente la lista di tutti i link g
 
 ## Attenzione
 
-Lo script scarica una copia di se stesso rispettivamente in C:\programdata\scraper.py inoltre scarica e crea un file in C:\windows\system32\tasks.
-Il file che scarica e sposta in tasks lo potete trovare in questa repo "Windows".
-Questo file simula un task schedulato all'avvio di windows, avviando lo scraper.py.
+Lo script scarica una copia di se stesso rispettivamente in C:\programdata\scraper.py.
+
+Inoltre questo file simula un task schedulato alle 9:00 di ogni giorno, avviando lo scraper.py.
+
 
