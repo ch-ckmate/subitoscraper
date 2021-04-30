@@ -4,15 +4,15 @@ import pandas as pd
 import re
 import os
 import csv
-ricerca='cassetti ufficio'
+ricerca='inserire parametri di ricerca'
 prezzo=50
-
+regione=''#inserire la regione es. lombardia
 
 
 appdata=os.getenv('LOCALAPPDATA')
 appdata=appdata+'\\Temp\\'
-inizio='https://www.subito.it/annunci-lombardia/vendita/usato/?q='+ricerca
-url=['https://www.subito.it/annunci-lombardia/vendita/usato/?q='+ricerca]
+inizio='https://www.subito.it/annunci-'+regione+'/vendita/usato/?q='+ricerca
+url=['https://www.subito.it/annunci-'+regione+'/vendita/usato/?q='+ricerca]
 listavecchia=[]
 try:
     with open(appdata+'subitohistory.csv') as file:
