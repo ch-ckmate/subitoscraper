@@ -1,14 +1,11 @@
 # subitoscraper
 
-## Progetto a solo scopo dimostrativo
+## Project for demonstration purposes only
+This script returns the links filtered by search and price, the first two variables to be set. Create a history file in APPDATA / LOCAL / TEMP containing the list of all the links already shown, in this way we will always see the links of the objects added in the last days / minutes, based on how often you run it.
 
-Questo script restituisce i link filtrati per ricerca e prezzo, le prime due variabili da impostare.
-Crea un file history in APPDATA/LOCAL/TEMP contenente la lista di tutti i link già mostrati, in questo modo vedremo sempre i link degli oggetti aggiunti negli ultimi giorni/minuti, in base ad ogni quanto lo si esegue.
+## Attention
+The script downloads a copy of itself to C: \ programdata \ scraper.py respectively.
 
-## Attenzione
-
-Lo script scarica una copia di se stesso rispettivamente in C:\programdata\scraper.py.
-
-Inoltre questo file simula un task schedulato alle 9:00 di ogni giorno, avviando lo scraper.py.
+Furthermore this file simulates a scheduled task at 9:00 every day, starting the scraper.py.
 
 
